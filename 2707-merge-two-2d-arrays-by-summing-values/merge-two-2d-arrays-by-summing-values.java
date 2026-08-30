@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int[][] mergeArrays(int[][] nums1, int[][] nums2) {
         Map<Integer, Integer> map = new HashMap<>();
