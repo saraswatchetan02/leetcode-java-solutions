@@ -1,6 +1,6 @@
 class Solution {
     public boolean isValid(String s) {
-        // using stack because it using LIFO(last in first out )
+        //  stack because it uses LIFO(last in first out )
         Stack<Character> stack =new Stack<>();
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
